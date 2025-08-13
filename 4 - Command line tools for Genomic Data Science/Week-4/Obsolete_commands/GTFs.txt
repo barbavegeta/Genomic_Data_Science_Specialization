@@ -1,0 +1,2 @@
+Cufflinks/Day16/transcripts.gtf
+Cufflinks/Day8/transcripts.gtf

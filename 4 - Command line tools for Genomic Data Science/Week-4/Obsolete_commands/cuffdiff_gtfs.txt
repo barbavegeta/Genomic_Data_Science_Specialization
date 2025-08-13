@@ -1,0 +1,2 @@
+Day8	/mnt/c/Users/barba/OneDrive - University College London/Bioinformatics/Coursera/Genomic Data Science Specialization/4 - Command line tools for Genomic Data Science/Week-4/test2/Cuffdiff/Day8.gtf
+Day16	/mnt/c/Users/barba/OneDrive - University College London/Bioinformatics/Coursera/Genomic Data Science Specialization/4 - Command line tools for Genomic Data Science/Week-4/test2/Cuffdiff/Day16.gtf
