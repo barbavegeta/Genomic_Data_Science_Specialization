@@ -76,4 +76,8 @@ The goal here is to demonstrate that I can correctly construct and chain these t
    chmod +x Week-1/Module-1-Exam.sh
    chmod +x Week-2/Module-2-Exam.sh
    chmod +x Week-3/project_module_3.sh
+<<<<<<< HEAD
    chmod +x Week-4/project_module_4.sh Week-4/run_rnaseq_analysis.sh Week-4/tophat.sh
+=======
+   chmod +x Week-4/project_module_4.sh Week-4/run_rnaseq_analysis.sh Week-4/tophat.sh
+>>>>>>> 0e0b96b (Fix)
