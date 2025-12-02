@@ -44,6 +44,10 @@ Large raw datasets, indexes, and heavy intermediate BAM/FASTQ files are **not** 
   - `bwa_bowtie2_commands.sh` – notes and commands for running BWA/Bowtie2 on the IL-2 and NA12814 examples.
   - `IL-2_mRNA.fasta` – small example FASTA used to demonstrate indexing and alignment commands (index artefacts are not tracked).
 
+Modern HISAT2-based pipeline: see 'gencommand_proj4/'
+
+Legacy TopHat/Cufflinks/Cuffdiff example: see 'legacy_tophat_cufflinks_pipeline/' (kept for historical / maintenance context).
+
 ---
 
 ## Tools used
