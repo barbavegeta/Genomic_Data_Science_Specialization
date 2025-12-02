@@ -1,12 +1,12 @@
-\# Statistics for Genomic Data Science (Course 6)
+# Statistics for Genomic Data Science (Course 6)
 
 
 
-This directory contains my R scripts for the four module projects from \*\*Course 6 – Statistics for Genomic Data Science\*\* in the Johns Hopkins Genomic Data Science Specialization.
+This directory contains my R scripts for the four module projects from **Course 6 – Statistics for Genomic Data Science** in the Johns Hopkins Genomic Data Science Specialization.
 
 
 
-These scripts focus on applying core statistical methods to genomic data using \*\*R\*\*: exploratory analysis, hypothesis testing, simple models, and visualisation on teaching datasets.
+These scripts focus on applying core statistical methods to genomic data using **R**: exploratory analysis, hypothesis testing, simple models, and visualisation on teaching datasets.
 
 
 
@@ -14,37 +14,37 @@ These scripts focus on applying core statistical methods to genomic data using \
 
 
 
-\## Files
+## Files
 
 
 
-\- `module\_1\_project.R`  
+- `module_1_project.R`  
 
-&nbsp; R script for the \*\*module 1 project\*\*.  
+&nbsp; R script for the **module 1 project**.  
 
 &nbsp; Covers basic exploratory data analysis and simple summary statistics on genomic-style datasets.
 
 
 
-\- `module\_2\_project.R`  
+- `module_2_project.R`  
 
-&nbsp; Script for the \*\*module 2 project\*\*.  
+&nbsp; Script for the **module 2 project**.  
 
 &nbsp; Implements statistical comparisons (e.g. hypothesis tests, confidence intervals) relevant to genomic measurements.
 
 
 
-\- `module\_3\_project.R`  
+- `module_3_project.R`  
 
-&nbsp; Script for the \*\*module 3 project\*\*.  
+&nbsp; Script for the **module 3 project**.  
 
 &nbsp; Focuses on modelling approaches (e.g. simple regression or related models) applied to genomic or high-throughput data.
 
 
 
-\- `module\_4\_project.R`  
+- `module_4_project.R`  
 
-&nbsp; Script for the \*\*module 4 project\*\*.  
+&nbsp; Script for the **module 4 project**.  
 
 &nbsp; Brings together previous topics into a small end-to-end analysis: data import, cleaning, statistical testing, and result visualisation.
 
@@ -58,11 +58,11 @@ These scripts focus on applying core statistical methods to genomic data using \
 
 
 
-\## How to run
+## How to run
 
 
 
-1\. Open R or RStudio in this folder:
+1. Open R or RStudio in this folder:
 
 
 
@@ -72,7 +72,7 @@ These scripts focus on applying core statistical methods to genomic data using \
 
 &nbsp;  ```
 
-2\. Make sure you have R and the required CRAN packages installed. From R:
+2. Make sure you have R and the required CRAN packages installed. From R:
 
 
 
@@ -86,13 +86,13 @@ These scripts focus on applying core statistical methods to genomic data using \
 
 
 
-3\. Run a project script either by sourcing it:
+3. Run a project script either by sourcing it:
 
 
 
 &nbsp;  ```r
 
-&nbsp;  source("module\_1\_project.R")
+&nbsp;  source("module_1_project.R")
 
 &nbsp;  ```
 
