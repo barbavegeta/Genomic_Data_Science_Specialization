@@ -53,7 +53,7 @@ The specialization consists of the following courses:
 
 ---
 
-### *Course 2: Python for Genomic Data Science*:contentReference
+### *Course 2: Python for Genomic Data Science*
 
 *Week 1 - First Steps in Python*  
 - Python overview, basic programming, Jupyter notebooks
@@ -61,5 +61,6 @@ The specialization consists of the following courses:
 *Week 2 - Data Structures, Ifs & Loops*  
 
 *Week 3 - Functions, Modules & Packages*  
+
 
 *Week 4 - Communicating with the Outside & Biopython*  
