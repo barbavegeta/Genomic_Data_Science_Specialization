@@ -75,8 +75,7 @@ These scripts focus on applying core statistical methods to genomic data using *
 
    ```r
    install.packages(c("tidyverse", "data.table"))
-
-  # add other packages here if a specific script reports that one is missing
+   # add other packages here if a specific script reports that one is missing
    ```
 
 
