@@ -20,33 +20,33 @@ These scripts focus on applying core statistical methods to genomic data using *
 
 - `module_1_project.R`  
 
-&nbsp; R script for the **module 1 project**.  
+ R script for the **module 1 project**.  
 
-&nbsp; Covers basic exploratory data analysis and simple summary statistics on genomic-style datasets.
+ Covers basic exploratory data analysis and simple summary statistics on genomic-style datasets.
 
 
 
 - `module_2_project.R`  
 
-&nbsp; Script for the **module 2 project**.  
+ Script for the **module 2 project**.  
 
-&nbsp; Implements statistical comparisons (e.g. hypothesis tests, confidence intervals) relevant to genomic measurements.
+ Implements statistical comparisons (e.g. hypothesis tests, confidence intervals) relevant to genomic measurements.
 
 
 
 - `module_3_project.R`  
 
-&nbsp; Script for the **module 3 project**.  
+ Script for the **module 3 project**.  
 
-&nbsp; Focuses on modelling approaches (e.g. simple regression or related models) applied to genomic or high-throughput data.
+ Focuses on modelling approaches (e.g. simple regression or related models) applied to genomic or high-throughput data.
 
 
 
 - `module_4_project.R`  
 
-&nbsp; Script for the **module 4 project**.  
+ Script for the **module 4 project**.  
 
-&nbsp; Brings together previous topics into a small end-to-end analysis: data import, cleaning, statistical testing, and result visualisation.
+ Brings together previous topics into a small end-to-end analysis: data import, cleaning, statistical testing, and result visualisation.
 
 
 
@@ -65,36 +65,28 @@ These scripts focus on applying core statistical methods to genomic data using *
 1. Open R or RStudio in this folder:
 
 
-
-&nbsp;  ```r
-
-&nbsp;  setwd("6 - Statistics for Genomic Data Science")
-
-&nbsp;  ```
+   ```r
+   setwd("6 - Statistics for Genomic Data Science")
+   ```
 
 2. Make sure you have R and the required CRAN packages installed. From R:
 
 
 
    ```r
+   install.packages(c("tidyverse", "data.table"))
 
-&nbsp;  install.packages(c("tidyverse", "data.table"))
-
-&nbsp;  # add other packages here if a specific script reports that one is missing
-
-&nbsp;  ```
+  # add other packages here if a specific script reports that one is missing
+   ```
 
 
 
 3. Run a project script either by sourcing it:
 
 
-
-&nbsp;  ```r
-
-&nbsp;  source("module_1_project.R")
-
-&nbsp;  ```
+   ```r
+   source("module_1_project.R")
+   ```
 
 
 
