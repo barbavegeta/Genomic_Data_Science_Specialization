@@ -1,8 +1,26 @@
-### *Course 3: Algorithms for DNA Sequencing*
+# Algorithms for DNA Sequencing (Course 3)
 
-This course spans approximately 12 hours; typical weeks might include:
+This folder contains my solutions and notes for **Course 3 – Algorithms for DNA Sequencing** from the Johns Hopkins Genomic Data Science Specialization.
 
-*Week 1 - DNA Sequencing Foundations & Basic Algorithms*  
-*Week 2 - Advanced Data Structures (e.g., suffix arrays, k-mers)*  
-*Week 3 - Genome assembly and alignment algorithms*  
-*Week 4 - Performance, optimization, real dataset analysis*
+The focus here is on implementing classic algorithms and data structures for analysing DNA sequencing data using **Python** and **Jupyter Notebooks**.
+
+## Contents
+
+Typical contents include:
+
+- Jupyter notebooks implementing:
+  - String matching and pattern search
+  - Overlap and De Bruijn graph–based genome assembly
+  - Read alignment and basic error handling
+- Python scripts with helper functions for working with FASTA / FASTQ files
+- Any small input files provided with the course (where size and licensing allow)
+
+File names are kept close to the original course structure so it’s easy to match them to the lectures/assignments.
+
+## How to run
+
+1. Activate the Python environment described in the root `README.md` (e.g. conda env `genomic-data-science`).
+2. From the repo root, start Jupyter:
+
+   ```bash
+   jupyter notebook
