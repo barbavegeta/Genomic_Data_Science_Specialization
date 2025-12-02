@@ -1,66 +1,96 @@
-# Genomic Data Science Specialization - Johns Hopkins University (Coursera)
+# Genomic Data Science Specialization – Code Exercises
 
-This repository contains my completed code exercises for the *Genomic Data Science Specialization* offered by Johns Hopkins University on Coursera.  
-It covers 8 courses that together explore the tools, methods, and algorithms used in modern genomic research.`
+This repository contains my personal solutions, scripts, and notes from the **Johns Hopkins Genomic Data Science Specialization** on Coursera.
 
-> *Note*: These solutions are for learning and reference purposes. Please adhere to the Coursera Honor Code if you're currently taking the course.
+The aim of this repo is to document the work I actually did during the courses – from basic sequence processing and algorithms, to command-line workflows, Bioconductor analyses, and introductory statistical genomics – using **Python**, **R**, **Bash**, and **Jupyter Notebooks**.
 
----
-
-## Specialization Overview
-
-The specialization consists of the following courses:
-
-1. *Introduction to Genomic Technologies*  
-   - Overview of modern genomic research tools and technologies.
-2. *Python for Genomic Data Science*  
-   - Python programming skills tailored to bioinformatics and genomics.
-3. *Algorithms for DNA Sequencing*  
-   - Core algorithms for analyzing DNA sequences.
-4. *Command Line Tools for Genomic Data Science*  
-   - Using Unix/Linux command line tools for genomic data analysis.
-5. *Bioconductor for Genomic Data Science*  
-   - Introduction to the Bioconductor project in R for genomic research.
-6. *Statistics for Genomic Data Science*  
-   - Statistical analysis and inference for genomics.
-7. *Genomic Data Science with Galaxy*  
-   - Visual, web-based tools for genomic data analysis.
-8. *Capstone Project*  
-   - Integration of skills to solve a real-world genomics problem.
+> This is a learning repository, not a polished production pipeline. It is meant to show my progression through the material and give me a reference for future work in bioinformatics.
 
 ---
 
-# Week 1 - Overview
+## Courses covered
 
-*Course:* 01 - Introduction to Genomic Technologies  
-*Platform:* Coursera - Johns Hopkins University  
-*Specialization:* Genomic Data Science  
+This repo includes code and notebooks corresponding to exercises from the following courses in the specialization:
 
-##  Topics Covered
-- Just enough molecular biology
-- The genome and DNA structure
-- Central Dogma (transcription, translation)
-- DNA modifications
+1. **Introduction to Genomic Technologies**
+2. **Python for Genomic Data Science**
+3. **Algorithms for DNA Sequencing**
+4. **Command Line Tools for Genomic Data Science**
+5. **Bioconductor for Genomic Data Science**
+6. **Statistics for Genomic Data Science**
+7. **Genomic Data Science with Galaxy**
+8. **Genomic Data Science Capstone**
 
-*Week 2 - Measurement Technology*  
-- PCR basics, Next-generation sequencing (NGS), applications of sequencing
-
-*Week 3 - Computing Technology*  
-- Foundations of computer science, algorithms, memory/data structures, computational biology software
-
-*Week 4 - Data Science Technology*  
-- Reproducibility, statistical inference, experimental design, variation, inference 
+Not every exercise from every course is represented, but the key coding and command-line components are included.
 
 ---
 
-### *Course 2: Python for Genomic Data Science*
+## Repository structure
 
-*Week 1 - First Steps in Python*  
-- Python overview, basic programming, Jupyter notebooks
+The exact folder names may evolve, but the structure is organised around courses and shared utilities:
 
-*Week 2 - Data Structures, Ifs & Loops*  
+- `3 - Algorithms for DNA Sequencing/`  
+  Solutions for the algorithms course: Python and notebook implementations of classic string/sequence algorithms, pattern matching, indexing, and basic read processing.
 
-*Week 3 - Functions, Modules & Packages*  
+- `4 - Command line tools for Genomic Data Science/`  
+  Shell scripts and command sequences using Unix tools (e.g. `grep`, `awk`, `sed`), plus genomics-specific tools such as `samtools`, `bedtools`, and related utilities for working with FASTQ/BAM/VCF files.
+
+- `5 - Bioconductor for Genomic Data Science/`  
+  R scripts and RMarkdown/notebook files using Bioconductor packages for tasks like differential expression, annotation, and basic genomic workflows.
+
+- `6 - Statistics for Genomic Data Science/`  
+  R code and notebooks covering statistical concepts applied to genomic data, including basic models, hypothesis testing, and visualisation.
+
+- `Notebooks_commands/`  
+  General Jupyter notebooks and command summaries that span multiple courses (e.g. combined notes on tools, small experiments, or scratch work).
+
+- `R/`  
+  Shared R helper scripts and utility functions reused across course assignments.
+
+If your local clone has slightly different directory names, the same logic applies: each top-level directory corresponds to a course or shared code.
+
+---
+
+## Getting started
+
+### Prerequisites
+
+You will need:
+
+- A Unix-like environment (Linux, macOS, or WSL on Windows)
+- **Python** (≥ 3.10) with Jupyter Notebook or JupyterLab
+- **R** (≥ 4.x) with RStudio or another R environment
+- For command-line exercises:
+  - Standard Unix tools (`grep`, `awk`, `sed`, `sort`, etc.)
+  - Genomics tools used in the courses, typically including:
+    - `samtools`
+    - `bedtools`
+    - Other utilities as specified in individual notebooks/scripts
+
+> Note: the exact tool versions are those commonly used during the Coursera course; some commands may need minor adjustment if you are using newer versions.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/barbavegeta/Genomic_Data_Science_Specialization.git
+cd Genomic_Data_Science_Specialization
+
+# Example – adjust package list as needed
+conda create -n genomic-data-science python=3.10 jupyter numpy pandas biopython
+conda activate genomic-data-science
+jupyter notebook
 
 
-*Week 4 - Communicating with the Outside & Biopython*  
+# Bioconductor
+install.packages(c("tidyverse", "data.table"))
+
+if (!require("BiocManager")) {
+  install.packages("BiocManager")
+}
+BiocManager::install(c(
+  "GenomicRanges",
+  "DESeq2",
+  "edgeR"
+  # add more Bioconductor packages here as used in the scripts
+))
+
