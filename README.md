@@ -4,6 +4,8 @@ This repository contains my personal solutions, scripts, and notes from the **Jo
 
 The aim of this repo is to document the work I actually did during the courses - from basic sequence processing and algorithms, to command-line workflows, Bioconductor analyses, and introductory statistical genomics - using **Python**, **R**, **Bash**, and **Jupyter Notebooks**.
 
+**Tech stack:** Python · R · Bash · Jupyter Notebooks · Bioconductor · Bowtie2 · BWA · HISAT2 · samtools · bedtools · DESeq2
+
 > This is a learning repository, not a polished production pipeline. It is meant to show my progression through the material and give me a reference for future work in bioinformatics.
 
 ---
@@ -93,3 +95,4 @@ BiocManager::install(c(
   "edgeR"
   # add more Bioconductor packages here as used in the scripts
 ))
+
