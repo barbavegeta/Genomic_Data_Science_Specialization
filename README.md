@@ -1,8 +1,8 @@
-# Genomic Data Science Specialization – Code Exercises
+# Genomic Data Science Specialization - Code Exercises
 
 This repository contains my personal solutions, scripts, and notes from the **Johns Hopkins Genomic Data Science Specialization** on Coursera.
 
-The aim of this repo is to document the work I actually did during the courses – from basic sequence processing and algorithms, to command-line workflows, Bioconductor analyses, and introductory statistical genomics – using **Python**, **R**, **Bash**, and **Jupyter Notebooks**.
+The aim of this repo is to document the work I actually did during the courses - from basic sequence processing and algorithms, to command-line workflows, Bioconductor analyses, and introductory statistical genomics - using **Python**, **R**, **Bash**, and **Jupyter Notebooks**.
 
 > This is a learning repository, not a polished production pipeline. It is meant to show my progression through the material and give me a reference for future work in bioinformatics.
 
@@ -75,7 +75,7 @@ You will need:
 git clone https://github.com/barbavegeta/Genomic_Data_Science_Specialization.git
 cd Genomic_Data_Science_Specialization
 
-# Example – adjust package list as needed
+# Example - adjust package list as needed
 conda create -n genomic-data-science python=3.10 jupyter numpy pandas biopython
 conda activate genomic-data-science
 jupyter notebook
@@ -93,4 +93,3 @@ BiocManager::install(c(
   "edgeR"
   # add more Bioconductor packages here as used in the scripts
 ))
-
