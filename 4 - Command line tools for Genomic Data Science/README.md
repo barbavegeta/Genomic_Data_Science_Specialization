@@ -83,5 +83,3 @@ The goal here is to demonstrate that I can correctly construct and chain these t
 <<<<<<< HEAD
    chmod +x Week-4/project_module_4.sh Week-4/run_rnaseq_analysis.sh Week-4/tophat.sh
 =======
-   chmod +x Week-4/project_module_4.sh Week-4/run_rnaseq_analysis.sh Week-4/tophat.sh
->>>>>>> 0e0b96b (Fix)
