@@ -59,7 +59,7 @@ This file.
   ```text
   Notebooks_commands/
   ```
-and open any `*.ipynb` notebook.
+- and open any `*.ipynb` notebook.
 Each notebook is self-contained; when they expect external data, the paths and file names are referenced in comments or in the first cells.
 ---
 ## Notes
