@@ -109,8 +109,7 @@ Most scripts are self-contained demonstrations of a specific package or concept 
 ---
 ## Notes
 - These files are **reference / practice scripts**, not an integrated analysis pipeline.
-- They’re useful as a quick reminder of how to perform common tasks in Bioconductor:
+- They’re useful as a quick reminder of how to perform common tasks in Bioconductor: importing data, working with genomic ranges, accessing annotation resources, and handling expression or methylation data.
 
-  importing data, working with genomic ranges, accessing annotation resources, and handling expression or methylation data.
 
 
