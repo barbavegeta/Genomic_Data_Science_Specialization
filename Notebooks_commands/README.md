@@ -1,6 +1,6 @@
-# Notebooks & Command Notes (Algorithms / String Processing)
+# Notebooks & Command Notes (Algorithms / String Processing)  
 This directory contains a set of **Jupyter notebooks** I used to practise and internalise the string/sequence algorithms from the Genomic Data Science Specialization (especially the *Algorithms for DNA Sequencing* material).
-They are not graded assignments, but my own working notes and implementations of core ideas: string matching, indexing, approximate matching, alignment, and simple assembly.
+They are not graded assignments, but my own working notes and implementations of core ideas: string matching, indexing, approximate matching, alignment, and simple assembly.  
 ---
 ## Files
 ### Section 1 – Basic string and read handling
