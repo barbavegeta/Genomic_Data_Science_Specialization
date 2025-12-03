@@ -14,24 +14,24 @@ Large raw datasets, indexes, and heavy intermediate BAM/FASTQ files are **not** 
 
 ## Structure
 
-- `Week-1/`  
+- `Week_1/`  
   Basic Unix and file-handling exam work:
-  - `Module-1-Exam.sh` – script solving the module 1 exam tasks.
+  - `Module_1_Exam.sh` – script solving the module 1 exam tasks.
   - `apple.*` – small toy genome and condition files used by the script.
 
-- `Week-2/`  
+- `Week_2/`  
   Command-line work with alignments and genomic intervals:
-  - `Module-2-Exam.sh` + `Module-2-Exam.md`, `Module-2-Quiz.md`.
+  - `Module_2_Exam.sh` + `Module_2_Exam.md`, `Module_2_Quiz.md`.
   - Small annotation and interval files (`*.bed`, `*.gtf`, `lengths`), used to practise `samtools` and `bedtools`.
   - Large BAM files are **not** kept here; see comments in the scripts for expected inputs.
 
-- `Week-3/`  
+- `Week_3/`  
   Variant-calling pipeline:
   - `project_module_3.sh` – bowtie2 + samtools + bcftools pipeline for calling variants on the provided *Arabidopsis thaliana* data.
   - `out.final.vcf`, `full_wu_0_A_variants.vcf`, `local_wu_0_A_variants.vcf` – example VCF outputs.
   - Intermediate BAMs, indexes, and FASTQ files are intentionally omitted from version control.
 
-- `Week-4/`  
+- `Week_4/`  
   RNA-seq pipeline work:
   - `project_module_4.sh`, `run_rnaseq_analysis.sh`, `tophat.sh` – command-line pipelines using Tophat/Cufflinks/Cuffdiff and/or HISAT2 for RNA-seq.
   - `analysis_r.R` – R script to analyse expression/count matrices (e.g. log2 fold changes, plots).
@@ -77,8 +77,9 @@ The goal here is to demonstrate that I can correctly construct and chain these t
 
    ```bash
    chmod +x commands.sh bwa_bowtie2_commands.sh
-   chmod +x Week-1/Module-1-Exam.sh
-   chmod +x Week-2/Module-2-Exam.sh
-   chmod +x Week-3/project_module_3.sh
-   chmod +x Week-4/project_module_4.sh Week-4/run_rnaseq_analysis.sh Week-4/tophat.sh
+   chmod +x Week_1/Module_1_Exam.sh
+   chmod +x Week_2/Module_2_Exam.sh
+   chmod +x Week_3/project_module_3.sh
+   chmod +x Week_4/project_module_4.sh Week_4/run_rnaseq_analysis.sh Week_4/tophat.sh
+
 
