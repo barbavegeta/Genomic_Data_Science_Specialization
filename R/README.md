@@ -1,6 +1,7 @@
 # Shared R / Bioconductor Notes  
+
 This directory contains a set of **R scripts** I wrote while working through the Bioconductor and statistics parts of the Johns Hopkins Genomic Data Science Specialization.  
-They are **not** a polished R package. They’re small, focused examples and code snippets showing how to use core Bioconductor classes, packages, and workflows: importing data, working with genomic ranges, handling expression data, and running basic analyses.
+They are **not** a polished R package. They’re small, focused examples and code snippets showing how to use core Bioconductor classes, packages, and workflows: importing data, working with genomic ranges, handling expression data, and running basic analyses.  
 ---
 ## Contents
 ### Bioconductor setup and general resources
@@ -110,3 +111,4 @@ Most scripts are self-contained demonstrations of a specific package or concept 
 - They’re useful as a quick reminder of how to perform common tasks in Bioconductor:
 
   importing data, working with genomic ranges, accessing annotation resources, and handling expression or methylation data.
+
